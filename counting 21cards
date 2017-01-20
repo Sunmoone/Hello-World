@@ -1,0 +1,137 @@
+var count = 0;
+
+function cc(card) {
+  // Only change code below this line
+/*if(card<7){
+  count++;
+  if(count>0){
+      return count+" Bet";
+    }
+  return count+" Bet";
+}
+else if(card==10){
+  count--;
+  if(count>0){
+      return count+" Bet";
+    }
+  return count+" Hold";
+}
+else if(card=='J'){
+  count--;
+  if(count>0){
+      return count+" Bet";
+    }
+  return count+" Hold";
+}
+  else if(card=='K'){
+    count--;
+    if(count>0){
+      return count+" Bet";
+    }
+    return count+" Hold";
+  }
+  else if(card=='Q'){
+    count--;
+    if(count>0){
+      return count+" Bet";
+    }
+    return count+" Hold";
+  }
+  else if(card=='A'){
+    count--;
+    if(count>0){
+      return count+" Bet";
+    }
+    return count+" Hold";
+  }
+  else if(card>=7&&card<=9){
+    count = count;
+    if(count>0){
+      return count+" Bet";
+    }
+    return count+" Hold";
+  }*/
+  /*if(card<7){
+  count++;
+}
+else if(card==10){
+  count--;
+}
+else if(card=='J'){
+  count--;
+}
+else if(card=='K'){
+    count--;
+  }
+else if(card=='Q'){
+    count--;
+  }
+  else if(card=='A'){
+    count--;
+  }
+  else if(card>=7&&card<=9){
+    count += 0;
+  }
+  if(count>0){
+    return count+" Bet";
+  }
+  else{
+    return count+" Hold";
+  }*/
+  if(card<7){
+  count++;
+}
+else if(card==10){
+  count--;
+}
+else if(card=='J'){
+  count--;
+}
+else if(card=='K'){
+    count--;
+  }
+else if(card=='Q'){
+    count--;
+  }
+  else if(card=='A'){
+    count--;
+  }
+  else if(card>=7&&card<=9){
+    count += 0;
+  }
+  return (count>0)?count+" Bet":count+" Hold";
+  /*switch(card){
+    case 2:
+    case 3:
+    case 4:
+    case 5:
+    case 6:
+      count++;
+      return (count>0)?count+" Bet":count+" Hold";
+    case 10:
+    case 'J':
+    case 'Q':
+    case 'K':
+    case 'A':
+      count--;
+      return (count>0)?count+" Bet":count+" Hold";
+    default:
+      count += 0;
+      return (count>0)?count+" Bet":count+" Hold";
+  }*/
+  /*if(card<7){
+    count++;
+  }
+  else if(isNaN(card)||card==10){
+    count--;
+  }
+  else{
+    count +=0;
+  }
+  return (count>0)?count+" Bet":count+" Hold";*/
+  // Only change code above this line
+}
+
+// Add/remove calls to test your function.
+// 提示: Only the last will display
+cc(10);cc('J');cc('Q');cc('K');cc('A');
