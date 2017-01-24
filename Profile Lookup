@@ -37,11 +37,8 @@ for(var i=0;i<contacts.length;i++){
       return "No such property";
     }
   }
-  else{
-    t = "No such contact";
-  }
 }
-  return t;
+  return "No such contact";
 // Only change code above this line
 }
 
