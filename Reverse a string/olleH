@@ -6,5 +6,11 @@ function reverseString(str){
   string.reverse();
   return string.join('');
   }
-
+/*
+function reverseString(str){
+  string=[];
+  string=str.split('');
+  string.reverse();
+  return string.join('');
+*/
 reverseString("hello");
